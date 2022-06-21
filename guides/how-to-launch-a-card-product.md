@@ -53,8 +53,8 @@ When it comes to the technology side of the industry, modernization is always ab
 
 | Name                     | Description                                                  | Examples                                                     |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Pass-thru Gateway        | Provides single or multiple network access points via one access point, but almost no other services | FIS, Fiserv, STAR                                            |
-| Issuing Gateway          | Authorizes and settles transactions, and manage card states, but typically doesn't include core banking and payments. Originally built to sit on top of Core Banking Systems | Marqeta, Stripe                                              |
+| Pass-thru Gateway        | Provides single or multiple network access points via one access point, but almost no other services | FIS, Fiserv, GPS, STAR                                           |
+| Issuing Gateway          | Authorizes and settles transactions, and manage card states, but typically doesn't include core banking and payments. Originally built to sit on top of Core Banking Systems | GPS, Marqeta, Stripe                                              |
 | Core Processor           | Connects to the network, authorizes and settles transactions, processes payments, and handles all core accounting requirements | Galileo, CoreCard, i2c, Privacy.com                          |
 | Core Banking             | Not connected to the network, but able to handle all account and accounting requirements.  With a issuing gateway on top it's how many banks initially brought debit cards to market | Profile, Phoenix, Finacle, Finxact                           |
 | General Service Provider | Bundles together core processing with bank relationship and servicing organization. Ala carte pricing on top of basic relationship | Deserve, Cardworks, TCW, Unit, Synapse, Treasury Prime, Cascade |
